@@ -44,3 +44,4 @@ public class AuthUserArgumentResolver implements HandlerMethodArgumentResolver {
         return new AuthUser(userId, email, userRole);
     }
 }
+
